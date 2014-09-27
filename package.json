@@ -1,0 +1,25 @@
+{
+  "name": "kue-webinterface",
+  "version": "0.0.1",
+  "description": "Enable the Web Interface for Kue",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lelandcope@github.com/lelandcope/kue-webinterface.git"
+  },
+  "author": "Leland Cope @lelandcope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lelandcope/kue-webinterface/issues"
+  },
+  "homepage": "https://github.com/lelandcope/kue-webinterface",
+  "dependencies": {
+    "basic-auth": "^1.0.0",
+    "commander": "^2.3.0",
+    "express": "^4.9.5",
+    "kue": "^0.8.8"
+  }
+}
